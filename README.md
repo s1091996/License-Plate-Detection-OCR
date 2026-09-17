@@ -106,16 +106,6 @@ Final/
 
    - **Windows**：
      下載並安裝 [Tesseract-OCR 安裝檔](https://github.com/UB-Mannheim/tesseract/wiki)（預設安裝路徑為 `C:\Program Files\Tesseract-OCR\tesseract.exe`）。若安裝在其他路徑，請打開 `config.py` 修改 `TESSERACT_PATH`。
-   - **Linux (Ubuntu/Debian)**：
-     ```bash
-     sudo apt-get update
-     sudo apt-get install tesseract-ocr
-     ```
-     安裝後需將 `config.py` 內的 `TESSERACT_PATH` 改為 `'tesseract'`。
-   - **macOS**：
-     ```bash
-     brew install tesseract
-     ```
      安裝後需將 `config.py` 內的 `TESSERACT_PATH` 改為 `'tesseract'`。
 
 5. **執行程式**
